@@ -17,10 +17,10 @@ const AppButton:FC<Props> = ({title,type, onClick}) => {
             color = 'bg-red-400';
             break;
         case 'normal':
-            color = 'bg-blue-800';
+            color = 'bg-blue-500';
             break;
         case 'regular':
-            color = 'bg-purple-800';
+            color = 'bg-purple-700';
             break;
         
     }
